@@ -23,6 +23,8 @@
 
 	<div class="container">
 		<div class="cart-wrapper">
+
+			<template id="roll-template">
 			<div class="cart-item">
 				<div>
 					<img class="product-image" src="images/products/original-cinnamon-roll.jpg">
@@ -37,20 +39,8 @@
 					<p>$ 2.49</p>
 				</div>
 			</div>
-			<div class="cart-item">
-				<div>
-					<img class="product-image" src="images/products/double-chocolate-cinnamon-roll.jpg">
-					<p class="remove">Remove</p>
-				</div>
-				<div class="item-detail">
-					<p>Double Chocolate Cinnamon Roll</p>
-					<p>Glazing: Sugar Milk</p>
-					<p>Pack Size: 6</p>
-				</div>
-				<div class="item-price">
-					<p>$ 27.45</p>
-				</div>
-			</div>
+			</template>
+
 		</div>
 		<div class="checkout-info">
 			<div class="whitespace"></div>
@@ -58,11 +48,12 @@
 				<p>Total</p>
 			</div>
 			<div>
-				<p class="total-price">$ 29.94</p>
+				<p class="total-price" id="total-price">$ 29.94</p>
 				<button class="highlight">Checkout</button>
 			</div>
 		</div>
 	</div>
 </body>
-
+<script src="js/rollsData.js"></script>
+<script src="js/price.js"></script>
 </html>
