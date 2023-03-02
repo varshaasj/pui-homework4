@@ -1,6 +1,6 @@
 # pui-homework5
 
 
-repo:
+repo: https://github.com/varshaasj/pui-homework5
 
 deployed website: 
